@@ -15,6 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class AccessLogFilter extends ZuulFilter {
 
+    /**
+     * Intellij idea上git配置的设置
+     * @return
+     */
     @Override
     public String filterType() {
         return FilterConstants.POST_TYPE;
