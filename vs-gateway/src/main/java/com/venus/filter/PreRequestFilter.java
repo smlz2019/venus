@@ -37,6 +37,8 @@ public class PreRequestFilter extends ZuulFilter {
      */
     @Override
     public Object run() throws ZuulException {
+        //请求上下文，可以传递到下一个过滤器
+        //该次请求的上下文
         RequestContext ctx = RequestContext.getCurrentContext();
         ctx.set("startTime", System.currentTimeMillis());
         return null;
