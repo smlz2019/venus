@@ -10,6 +10,7 @@
     <modules>
         <module>vs-eureka</module>
         <module>vs-gateway</module>
+        <module>vs-service</module>
     </modules>
 
     <packaging>pom</packaging>
